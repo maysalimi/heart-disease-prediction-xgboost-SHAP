@@ -1,0 +1,13 @@
+﻿Project Overview:
+This project is all about predicting the 10-year risk of coronary heart disease (CHD) using machine learning. The data comes from the famous Framingham Heart Study, which tracks various health factors like age, blood pressure, cholesterol levels, and smoking habits—key contributors to heart disease risk.
+For this, I used XGBoost, a powerful machine learning algorithm, to build a model that predicts whether someone is at risk for CHD. To make sure the model performs at its best, I fine-tuned the hyperparameters using GridSearchCV.
+What’s Inside:
+* Preprocessing: Cleaning up missing data, scaling the features, and encoding categorical variables to get the dataset ready for modeling.
+
+* Modeling: Training an XGBoost classifier and optimizing it for the most accurate predictions.
+
+* Evaluation: The model achieved an accuracy of 85.85% on the test data. I also provided additional metrics such as precision, recall, and F1-score, along with a confusion matrix for better visualization of results.
+
+* Explainability: I used SHAP to interpret how the model makes its predictions, helping us understand which features are most important in predicting heart disease risk.
+
+This project demonstrates how machine learning can be applied to health data, paving the way for more personalized and accurate risk assessments. Feel free to dive in, explore the code, or even contribute!
